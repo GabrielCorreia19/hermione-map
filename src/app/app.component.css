@@ -50,6 +50,11 @@
   border-radius: 12px;
   width: 100%;
   margin-top: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .section-chats {
@@ -71,6 +76,7 @@
     color: #520503;
     font-weight: bold;
     font-size: 1rem;
+    cursor: pointer;
   }
 }
 
@@ -92,6 +98,7 @@
     color: #520503;
     font-weight: bold;
     font-size: 1rem;
+    cursor: pointer;
   }
 }
 
@@ -135,5 +142,6 @@
     position: absolute;
     right: 275px;
     bottom: 40px;
+    cursor: pointer;
   }
 }
